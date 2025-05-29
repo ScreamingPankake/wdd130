@@ -81,3 +81,49 @@ h1 {
 .hero article p {
     color: black;
 }
+
+.header {
+
+    background-color: #9dd9d2;
+
+    display: grid;
+
+    grid-template-columns: 300px repeat(4, 1fr);
+
+    justify-items: center;
+    align-items: center;
+}
+
+.history {
+    background-color: aliceblue;
+}
+
+.photos {
+    background-color: var(--accent-color2);
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px;
+    gap: 10px;
+}
+
+.adventure {
+    grid-column: span 5;
+
+    justify-self: center;
+}
+
+.socialmedia {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px;
+
+    align-items: center;
+    justify-items: center;
+
+    justify-self: center;
+}
+
+footer p {
+    justify-self: center;
+}
