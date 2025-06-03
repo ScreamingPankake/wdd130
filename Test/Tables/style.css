@@ -1,0 +1,27 @@
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+}
+
+thead {
+    background-color: #000;
+    color: #fff;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+tfoot {
+    background-color: rgb(228,240,245);
+}
+
+tr, th, td{
+    border: 1px solid rgb(140 140 140);
+    padding: 8px 10px;
+}

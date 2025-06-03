@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>WDD 130 | HTML Form - User Poll</h1>
+    <main>
+        <form>
+            <fieldset class="contact-info">
+                
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <Label for="fullname">Full Name:</Label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset class="questions">
+                <legend>Questions</legend>
+                <div class="column1">
+                    <Label for="browser">What is your favorite browser?</Label>
+                    <select name="browser" id="browser">
+                        <option value="operagx">OperaGX</option>
+                        <option value="google">Google</option>
+                        <option value="windows-explorer">Windows-Explorer</option>
+                    </select>
+                </div>
+                <div class="column1">
+                    <label for="has-pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="has-pet" name="has-pet">
+                </div>
+                <label for="feedback" class="textbox-question">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Enter here"></textarea>
+            </fieldset>
+            <button>Submit Poll</button>
+        </form>
+    </main>
+</body>
+<footer>
+    ©2025 | HTML Form - User Poll Activity | Nathan Atwood
+</footer>
+
+</html>
