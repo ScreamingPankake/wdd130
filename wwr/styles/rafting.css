@@ -190,7 +190,7 @@ footer p {
     height: 50px;
     border: solid 2px darkcyan;
     border-radius: 7px;
-    color: white;
+    color: black;
 }
 
 .submit button:hover {
