@@ -213,7 +213,7 @@ footer p {
 p,
 label,
 .info h3 {
-    color: var(--accent-color2);
+    color: black;
 }
 
 input,
