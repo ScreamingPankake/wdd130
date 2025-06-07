@@ -6,6 +6,11 @@
 
 /* Class Selectors */
 
+header {
+    background-color: steelblue;
+    padding: 10px;
+}
+
 main ul {
     width: 20em;
     margin: 1em;
