@@ -11,6 +11,10 @@ header {
     padding: 10px;
 }
 
+p {
+    padding: 0;
+}
+
 main ul {
     width: 20em;
     margin: 1em;
