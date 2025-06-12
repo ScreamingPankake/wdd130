@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="The homepage of the company">
+    <meta name="Author" content="Nathan Atwood">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -24,23 +26,26 @@
         </nav>
     </header>
     <main>
-        <div class="main-img">
+        <div class="hero">
             <img class="content" src="images/rafting-photo4.jpg" alt="A Picture of a lady white water rafting">
         </div>
-        <div class="img-collection">
-            <div>
-                <img src="images/rafting-photo1.jpg" alt="Family rafting" width="200px">
-                <h3>Rivers</h3>
+
+        <form class="sign-up">
+            <div class="newsletter">
+                <h2>Sign up for our newsletter!</h2>
+                <label for="name">Name:</label>
+                <input type="text">
+                <label for="email">Email:</label>
+                <input type="text">
             </div>
-            <div>
-                <img src="images/rafting-photo10.jpg" alt="Family rafting" width="200px">
-                <h3>Camping</h3>
-            </div>
-            <div>
-                <img src="images/rafting-photo6.jpg" alt="Family rafting" width="200px">
-                <h3>Rapids</h3>
-            </div>
-        </div>
+            <button>Submit
+            </button>
+        </form>
+
+        <form action="trip.html" class="call-to-action">
+            <h3>Start Your Adventure Today!</h3>
+            <button id="book-button">Book Today</button>
+        </form>
 
         <div class="about-home">
             <img src="images/adventure.jpg" alt="adventure" width="800px" id="text-img">
@@ -51,7 +56,12 @@
         </div>
     </main>
     <footer>
-        <p>©Nathan Atwood | UT | 2025</p>
+        <p>©Exciting Expeditions | UT | 2025</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="./images/social-facebook.jpg" alt="Facebook logo"></a>
+            <a href="https://instagram.com"><img src="./images/social-instagram.jpg" alt="Instagram logo"></a>
+            <a href="https://X.com"><img src="./images/social-x.jpg" alt="X logo"></a>
+        </nav>
     </footer>
 </body>
 

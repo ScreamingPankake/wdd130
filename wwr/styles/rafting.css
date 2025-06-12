@@ -112,6 +112,9 @@ h1 {
 .header {
 
     background-color: #9dd9d2;
+    border: 2px solid #5ec2b7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     display: flex;
 
@@ -239,13 +242,25 @@ textarea {
 }
 
 .img-collection {
-    margin-top: 3rem;
     display: flex;
     padding: 0;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #ae8c7a;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+
+}
+
+.img-collection img {
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .about-home {
@@ -256,7 +271,9 @@ textarea {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 100%;
     background-color: #ae8c7a;
-
+    border-top: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #text-img {
@@ -267,15 +284,133 @@ textarea {
     height: auto;
     margin: 60px;
     margin-left: 100px;
-    box-shadow: 7px 7px 30px black ;
+    box-shadow: 7px 7px 30px black;
 
 }
 
 .text-box {
     display: grid;
-    grid-column: 2/4;
+    grid-column: 3/span2;
     grid-row: 2/4;
     padding: 20px;
     background-color: white;
     border: 7px black;
+    border-radius: 5px;
+    box-shadow: 7px 7px 30px black;
+}
+
+.sign-up {
+    padding: 2rem;
+
+    background-color: #ae8c7a;
+    justify-items: center;
+
+    border-bottom: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.newsletter {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.newsletter h2 {
+    justify-self: center;
+}
+
+.newsletter label,
+.newsletter input {
+    margin: 10px;
+    padding: 4px;
+
+}
+
+.sign-up button {
+    margin-top: 20px;
+    background-color: white;
+    width: 175px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 7px;
+    color: black;
+}
+
+.sign-up button:hover {
+    background-color: black;
+    color: white;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 20px;
+
+}
+
+.call-to-action h3 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#book-button {
+    width: 50%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #9dd9d2;
+    border: 2px solid #5ec2b7;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#book-button:hover {
+    background-color: #ae8c7a;
+    border: 2px solid #bab4a5;
+}
+
+.trips {
+    width: 33%px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    background-color: #9dd9d2;
+    border: 2px solid #5ec2b7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.trips div {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.trips img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.trips p {
+    justify-self: center;
+}
+
+#call-to-action {
+    padding: 20px;
+    justify-self: center;
+}
+
+#contact-button {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: #9dd9d2;
+    border: 2px solid #5ec2b7;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
 }
